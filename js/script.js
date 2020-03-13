@@ -52,6 +52,9 @@ for (var i = 0; i < btns.length; i++) {
       alert("Thank you for your time! Your details have been submitted!");
       return true;
     } 
+	 else {
+		 document.location.reload(true);
+	 }
   }
 
   function formValidation() {
