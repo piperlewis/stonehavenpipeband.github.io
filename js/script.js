@@ -50,11 +50,8 @@ for (var i = 0; i < btns.length; i++) {
  function submitClick() {
     if (formValidation()) {
       alert("Thank you for your time! Your details have been submitted!");
-      return true;
+      return false;
     } 
-	 else {
-		 document.location.reload(true);
-	 }
   }
 
   function formValidation() {
